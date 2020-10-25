@@ -120,3 +120,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+DATABASES['default']=dict(ENGINE='django.db.backends.mysql',
+ NAME='db02', USER='dba', PASSWORD='secret', HOST='172.21.37.69')
+
+
